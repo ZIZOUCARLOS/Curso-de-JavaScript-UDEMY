@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orden de Pizza en Línea</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="loginForm">
+    <h2>Iniciar sesión</h2>
+    <input type="text" id="username" placeholder="Nombre de usuario">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button onclick="login()">Iniciar sesión</button>
+  </div>
+
+  <div id="registerForm">
+    <h2>Registro</h2>
+    <input type="text" id="newUsername" placeholder="Nombre de usuario">
+    <input type="password" id="newPassword" placeholder="Contraseña">
+    <button onclick="register()">Registrarse</button>
+  </div>
+
+  <div id="menu">
+    <h2>Menú de Pizzas</h2>
+    <!-- Aquí se mostrará el menú de pizzas -->
+  </div>
+
+  <div id="customizePizza">
+    <h2>Personalizar Pizza</h2>
+    <!-- Aquí se mostrará el formulario para personalizar la pizza -->
+    <button onclick="addToCart()">Agregar al carrito</button>
+  </div>
+
+  <div id="cart">
+    <h2>Carrito de compras</h2>
+    <!-- Aquí se mostrará el resumen del pedido en el carrito -->
+    <button onclick="checkout()">Finalizar pedido</button>
+  </div>
+
+  <div id="payment">
+    <h2>Pago</h2>
+    <!-- Aquí se mostrará el formulario para ingresar la información de pago -->
+    <button onclick="confirmOrder()">Confirmar pedido</button>
+  </div>
+
+  <div id="orderConfirmation">
+    <h2>Confirmación de pedido</h2>
+    <!-- Aquí se mostrará la confirmación del pedido -->
+  </div>
+
+  <div id="orderHistory">
+    <h2>Historial de pedidos</h2>
+    <!-- Aquí se mostrará el historial de pedidos anteriores -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
